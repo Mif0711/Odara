@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ODARA">
+    <defs>
+        <linearGradient id="bg" x1="10" y1="4" x2="56" y2="61" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#bff7ec"/>
+            <stop offset=".45" stop-color="#5ed6be"/>
+            <stop offset="1" stop-color="#1a9b87"/>
+        </linearGradient>
+        <radialGradient id="glow" cx="18" cy="9" r="44" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffffff" stop-opacity=".55"/>
+            <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="ring" x1="18" y1="16" x2="46" y2="50" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#0b4a40"/>
+            <stop offset="1" stop-color="#062d28"/>
+        </linearGradient>
+    </defs>
+    <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bg)"/>
+    <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#glow)"/>
+    <circle cx="32" cy="33" r="15" fill="none" stroke="url(#ring)" stroke-width="7"/>
+    <circle cx="46" cy="18" r="5.2" fill="#ffffff"/>
+    <circle cx="46" cy="18" r="3.5" fill="#f2a33a"/>
+</svg>
